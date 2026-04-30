@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conta Bahia Soluções Empresariais</title>
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════
+     NAVEGAÇÃO
+═══════════════════════════════════════════ -->
+<nav>
+  <a href="#inicio" class="logo">
+    <div class="logo-mark">CB</div>
+    <span class="logo-text">Conta<span>Bahia</span></span>
+  </a>
+
+  <ul class="nav-links">
+    <li><a href="#inicio">Início</a></li>
+    <li><a href="#sobre">Sobre Nós</a></li>
+    <li><a href="#servicos">Serviços</a></li>
+
+    <!-- Ferramentas com submenu -->
+    <li>
+      <a href="#">Ferramentas <span class="arrow">▼</span></a>
+      <div class="dropdown">
+        <div class="dropdown-header">Em breve</div>
+
+        <a href="#">
+          <div class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="2">
+              <rect x="3" y="3" width="18" height="18" rx="3"/>
+              <path d="M9 9h6M9 12h6M9 15h4"/>
+            </svg>
+          </div>
+          <div class="dl">
+            <span>Calculadora Tributária</span>
+            <small>Simule impostos do seu negócio</small>
+          </div>
+          <span class="badge-soon">EM BREVE</span>
+        </a>
+
+        <a href="#">
+          <div class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="2">
+              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/>
+            </svg>
+          </div>
+          <div class="dl">
+            <span>Simulador de Custos</span>
+            <small>Precifique seus produtos e serviços</small>
+          </div>
+          <span class="badge-soon">EM BREVE</span>
+        </a>
+
+        <a href="#">
+          <div class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="2">
+              <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+              <polyline points="14 2 14 8 20 8"/>
+            </svg>
+          </div>
+          <div class="dl">
+            <span>Gerador de Documentos</span>
+            <small>Modelos prontos para sua empresa</small>
+          </div>
+          <span class="badge-soon">EM BREVE</span>
+        </a>
+
+        <div class="dropdown-sep"></div>
+
+        <a href="#">
+          <div class="icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="2">
+              <circle cx="12" cy="12" r="10"/>
+              <path d="M12 6v6l4 2"/>
+            </svg>
+          </div>
+          <div class="dl">
+            <span>Agenda Tributária</span>
+            <small>Calendário de obrigações fiscais</small>
+          </div>
+          <span class="badge-soon">EM BREVE</span>
+        </a>
+      </div>
+    </li>
+
+    <li><a href="#noticias">Notícias</a></li>
+    <li><a href="#contato">Contato</a></li>
+  </ul>
+
+  <a href="https://onvio.com.br/#/" target="_blank" class="nav-cta">Área do Cliente</a>
+</nav>
+
+
+<!-- ═══════════════════════════════════════════
+     HERO SLIDER
+═══════════════════════════════════════════ -->
+<section class="hero" id="inicio">
+
+  <div class="hero-slides" id="heroSlides">
+    <div class="hero-slide">
+      <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1600&auto=format&fit=crop&q=85" alt="Consultoria contábil" />
+    </div>
+    <div class="hero-slide">
+      <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1600&auto=format&fit=crop&q=85" alt="Planejamento tributário" />
+    </div>
+    <div class="hero-slide">
+      <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1600&auto=format&fit=crop&q=85" alt="Gestão financeira" />
+    </div>
+  </div>
+
+  <div class="hero-content">
+    <div class="hero-badge">Escritório de Contabilidade — Bahia</div>
+    <h1>Contabilidade que<br><em>impulsiona</em><br>seus resultados.</h1>
+    <p>Soluções contábeis personalizadas para o seu negócio crescer com segurança, eficiência e inteligência tributária.</p>
+    <div class="hero-actions">
+      <a href="#contato" class="btn-primary">Falar com especialista</a>
+      <a href="#servicos" class="btn-outline">Nossos serviços</a>
+    </div>
+  </div>
+
+  <div class="hero-stats">
+    <div class="hero-stat">
+      <div class="v">+15</div>
+      <div class="l">anos de experiência</div>
+    </div>
+    <div class="hero-stat">
+      <div class="v">+200</div>
+      <div class="l">empresas atendidas</div>
+    </div>
+    <div class="hero-stat">
+      <div class="v">99%</div>
+      <div class="l">satisfação</div>
+    </div>
+  </div>
+
+  <button class="hero-arrow prev" id="heroPrev" aria-label="Anterior">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="15 18 9 12 15 6"/>
+    </svg>
+  </button>
+  <button class="hero-arrow next" id="heroNext" aria-label="Próximo">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+      <polyline points="9 18 15 12 9 6"/>
+    </svg>
+  </button>
+
+  <div class="hero-indicators" id="heroIndicators">
+    <button class="hero-dot active" data-index="0"></button>
+    <button class="hero-dot" data-index="1"></button>
+    <button class="hero-dot" data-index="2"></button>
+  </div>
+
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     DIFERENCIAIS
+═══════════════════════════════════════════ -->
+<section class="section" id="diferenciais">
+  <div class="sh">
+    <div class="sh-label">Por que nos escolher</div>
+    <div class="sh-title">Nossos Diferenciais</div>
+    <div class="sh-sub">A credibilidade que você procura com a qualidade que você precisa.</div>
+  </div>
+
+  <div class="diff-grid">
+    <div class="diff-card reveal" style="--delay:0ms">
+      <div class="diff-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="2">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="M12 6v6l4 2"/>
+        </svg>
+      </div>
+      <h3>Otimização de tempo</h3>
+      <p>Gestores focam na captação de clientes enquanto cuidamos de toda a parte contábil com agilidade e precisão.</p>
+    </div>
+
+    <div class="diff-card reveal" style="--delay:100ms">
+      <div class="diff-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="2">
+          <path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/>
+        </svg>
+      </div>
+      <h3>Maior lucratividade</h3>
+      <p>Análise completa dos pontos que causam prejuízos e adoção de medidas corretivas estratégicas para seu negócio.</p>
+    </div>
+
+    <div class="diff-card reveal" style="--delay:200ms">
+      <div class="diff-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="2">
+          <path d="M20 7H4a2 2 0 00-2 2v6a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z"/>
+          <path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/>
+        </svg>
+      </div>
+      <h3>Redução de custos</h3>
+      <p>Diminuição considerável de gastos com profissionais nas atividades administrativas e encargos sociais.</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     SOBRE
+═══════════════════════════════════════════ -->
+<section class="sobre" id="sobre">
+  <div class="sobre-inner">
+
+    <div class="sobre-left">
+      <div class="sobre-tag">Nossa história</div>
+      <h2 class="sobre-title">Mais de uma década <strong>construindo confiança</strong> no sul da Bahia.</h2>
+      <div class="sobre-historia reveal">
+        <p>A ContaBahia nasceu com um propósito claro: oferecer contabilidade de alto nível para empresas que merecem um parceiro estratégico de verdade, não apenas um prestador de serviços.</p>
+        <p>Fundada em Ituberá, expandimos nossa atuação para todo o sul da Bahia, atendendo empresas dos mais variados setores — de cooperativas a clínicas, de transportadoras a indústrias. Nossa equipe combina expertise técnica com atendimento próximo e personalizado.</p>
+        <p>Ao longo dos anos, construímos uma reputação baseada em um princípio simples: quando nosso cliente cresce, nós crescemos junto. Por isso, tratamos cada empresa como única, com soluções sob medida e compromisso real com os resultados.</p>
+      </div>
+    </div>
+
+    <div class="sobre-right-stack reveal" style="--delay:120ms">
+      <div class="mvv-card">
+        <div class="mvv-card-label">Missão</div>
+        <p>Oferecer serviços contábeis de maneira segura e tempestiva, atendendo aos padrões éticos e legais, com foco na satisfação do cliente.</p>
+      </div>
+      <div class="mvv-card">
+        <div class="mvv-card-label">Visão</div>
+        <p>Tornar-se referência em serviços contábeis no sul da Bahia, com base nos princípios éticos, qualidade e compromisso com o crescimento dos nossos clientes.</p>
+      </div>
+      <div class="sobre-valores">
+        <div class="mvv-card-label">Valores</div>
+        <p>Ética · Transparência · Competência · Reconhecimento Humano · Melhoria Contínua</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     NÚMEROS
+═══════════════════════════════════════════ -->
+<section class="numeros" id="numeros">
+  <div class="numeros-inner">
+
+    <div class="numero-item reveal" style="--delay:0ms">
+      <div class="numero-value" data-target="15"><span>+</span>0</div>
+      <div class="numero-label">Anos de experiência</div>
+    </div>
+
+    <div class="numero-item reveal" style="--delay:80ms">
+      <div class="numero-value" data-target="200"><span>+</span>0</div>
+      <div class="numero-label">Empresas atendidas</div>
+    </div>
+
+    <div class="numero-item reveal" style="--delay:160ms">
+      <div class="numero-value" data-target="10">0</div>
+      <div class="numero-label">Serviços especializados</div>
+    </div>
+
+    <div class="numero-item reveal" style="--delay:240ms">
+      <div class="numero-value" data-target="8">0</div>
+      <div class="numero-label">Municípios atendidos</div>
+    </div>
+
+    <div class="numero-item reveal" style="--delay:320ms">
+      <div class="numero-value" data-target="99">0<span>%</span></div>
+      <div class="numero-label">Índice de satisfação</div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     SERVIÇOS
+═══════════════════════════════════════════ -->
+<section class="services" id="servicos">
+  <div class="sh reveal">
+    <div class="sh-label">O que oferecemos</div>
+    <div class="sh-title">Nossos Serviços</div>
+    <div class="sh-sub">Soluções especializadas para cada etapa do crescimento da sua empresa.</div>
+  </div>
+
+  <div class="services-grid">
+
+    <div class="service-card reveal" style="--delay:0ms">
+      <div class="service-img">
+        <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=600&auto=format&fit=crop&q=80" alt="Cooperativas" />
+        <div class="service-img-overlay"></div>
+      </div>
+      <div class="service-body">
+        <div class="service-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="1.8">
+            <rect x="3" y="3" width="7" height="7" rx="1"/>
+            <rect x="14" y="3" width="7" height="7" rx="1"/>
+            <rect x="3" y="14" width="7" height="7" rx="1"/>
+            <rect x="14" y="14" width="7" height="7" rx="1"/>
+          </svg>
+        </div>
+        <div class="service-num">01</div>
+        <h3>Contabilidade Especializada para Cooperativas</h3>
+        <p>Gestão contábil eficiente, alinhada à legislação específica e às melhores práticas do setor cooperativista.</p>
+      </div>
+    </div>
+
+    <div class="service-card reveal" style="--delay:80ms">
+      <div class="service-img">
+        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=600&auto=format&fit=crop&q=80" alt="Planejamento Tributário" />
+        <div class="service-img-overlay"></div>
+      </div>
+      <div class="service-body">
+        <div class="service-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="1.8">
+            <rect x="2" y="7" width="20" height="14" rx="2"/>
+            <path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/>
+            <line x1="12" y1="12" x2="12" y2="16"/>
+            <line x1="10" y1="14" x2="14" y2="14"/>
+          </svg>
+        </div>
+        <div class="service-num">02</div>
+        <h3>Planejamento Tributário Inteligente</h3>
+        <p>Redução da carga tributária com estratégias personalizadas para otimizar os resultados do seu negócio.</p>
+      </div>
+    </div>
+
+    <div class="service-card reveal" style="--delay:160ms">
+      <div class="service-img">
+        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&auto=format&fit=crop&q=80" alt="Formação de Custos" />
+        <div class="service-img-overlay"></div>
+      </div>
+      <div class="service-body">
+        <div class="service-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="1.8">
+            <circle cx="11" cy="11" r="8"/>
+            <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            <line x1="11" y1="8" x2="11" y2="14"/>
+            <line x1="8" y1="11" x2="14" y2="11"/>
+          </svg>
+        </div>
+        <div class="service-num">03</div>
+        <h3>Consultoria na Formação de Custos de Produtos e Serviços</h3>
+        <p>Análise detalhada dos custos para garantir precificação justa e sustentável, maximizando a margem de lucro.</p>
+      </div>
+    </div>
+
+    <div class="service-card reveal" style="--delay:0ms">
+      <div class="service-img">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&auto=format&fit=crop&q=80" alt="Preços de Venda" />
+        <div class="service-img-overlay"></div>
+      </div>
+      <div class="service-body">
+        <div class="service-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="1.8">
+            <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+            <line x1="16" y1="13" x2="8" y2="13"/>
+            <line x1="16" y1="17" x2="8" y2="17"/>
+          </svg>
+        </div>
+        <div class="service-num">04</div>
+        <h3>Estratégia na Formação de Preços de Venda</h3>
+        <p>Definição de preços competitivos e lucrativos com base em estrutura de custos, mercado e estratégias comerciais.</p>
+      </div>
+    </div>
+
+    <div class="service-card reveal" style="--delay:80ms">
+      <div class="service-img">
+        <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&auto=format&fit=crop&q=80" alt="Recuperação Tributária" />
+        <div class="service-img-overlay"></div>
+      </div>
+      <div class="service-body">
+        <div class="service-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="1.8">
+            <path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/>
+          </svg>
+        </div>
+        <div class="service-num">05</div>
+        <h3>Recuperação de Créditos Tributários</h3>
+        <p>Identificação e aproveitamento de créditos fiscais não utilizados, reduzindo custos e melhorando a saúde financeira.</p>
+      </div>
+    </div>
+
+    <div class="service-card reveal" style="--delay:160ms">
+      <div class="service-img">
+        <img src="https://images.unsplash.com/photo-1543286386-713bdd548da4?w=600&auto=format&fit=crop&q=80" alt="Avaliação Econômica" />
+        <div class="service-img-overlay"></div>
+      </div>
+      <div class="service-body">
+        <div class="service-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="1.8">
+            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+          </svg>
+        </div>
+        <div class="service-num">06</div>
+        <h3>Avaliação Econômica e Financeira de Negócios</h3>
+        <p>Análise aprofundada para fusões, aquisições e expansão, garantindo decisões estratégicas bem fundamentadas.</p>
+      </div>
+    </div>
+
+    <div class="service-card reveal" style="--delay:0ms">
+      <div class="service-img">
+        <img src="https://images.unsplash.com/photo-1664575602554-2087b04935a5?w=600&auto=format&fit=crop&q=80" alt="Diagnóstico Empresarial" />
+        <div class="service-img-overlay"></div>
+      </div>
+      <div class="service-body">
+        <div class="service-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="1.8">
+            <rect x="2" y="3" width="20" height="14" rx="2"/>
+            <path d="M8 21h8M12 17v4"/>
+            <path d="M7 8h1l2 4 2-6 2 4 1-2h2"/>
+          </svg>
+        </div>
+        <div class="service-num">07</div>
+        <h3>Diagnóstico Empresarial</h3>
+        <p>Mapeamento completo da saúde financeira e operacional da sua empresa para identificar oportunidades de melhoria.</p>
+      </div>
+    </div>
+
+    <div class="service-card reveal" style="--delay:80ms">
+      <div class="service-img">
+        <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&auto=format&fit=crop&q=80" alt="Assessoria Contábil" />
+        <div class="service-img-overlay"></div>
+      </div>
+      <div class="service-body">
+        <div class="service-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="1.8">
+            <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+            <circle cx="9" cy="7" r="4"/>
+            <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+          </svg>
+        </div>
+        <div class="service-num">08</div>
+        <h3>Assessoria Contábil</h3>
+        <p>Suporte contábil completo e contínuo para manter sua empresa em conformidade e sempre atualizada com a legislação.</p>
+      </div>
+    </div>
+
+    <div class="service-card reveal" style="--delay:160ms">
+      <div class="service-img">
+        <img src="https://images.unsplash.com/photo-1579621970795-87facc2f976d?w=600&auto=format&fit=crop&q=80" alt="Composição de Custos" />
+        <div class="service-img-overlay"></div>
+      </div>
+      <div class="service-body">
+        <div class="service-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="1.8">
+            <rect x="2" y="2" width="20" height="8" rx="2"/>
+            <rect x="2" y="14" width="20" height="8" rx="2"/>
+            <line x1="6" y1="6" x2="6.01" y2="6"/>
+            <line x1="6" y1="18" x2="6.01" y2="18"/>
+          </svg>
+        </div>
+        <div class="service-num">09</div>
+        <h3>Consultoria em Composição do Custo dos Produtos e Serviços</h3>
+        <p>Estruturação detalhada de todos os componentes de custo para embasar decisões mais precisas e lucrativas.</p>
+      </div>
+    </div>
+
+    <div class="service-card reveal service-card--last" style="--delay:80ms">
+      <div class="service-img">
+        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&auto=format&fit=crop&q=80" alt="Composição do Preço de Venda" />
+        <div class="service-img-overlay"></div>
+      </div>
+      <div class="service-body">
+        <div class="service-icon-wrap">
+          <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="1.8">
+            <circle cx="8" cy="21" r="1"/>
+            <circle cx="19" cy="21" r="1"/>
+            <path d="M2.05 2.05h2l2.66 12.42a2 2 0 002 1.58h9.78a2 2 0 001.95-1.57l1.65-7.43H5.12"/>
+          </svg>
+        </div>
+        <div class="service-num">10</div>
+        <h3>Consultoria em Composição do Preço de Venda</h3>
+        <p>Definição estratégica do preço de venda ideal considerando custos, margem de lucro e posicionamento de mercado.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     DEPOIMENTOS
+═══════════════════════════════════════════ -->
+<section class="testimonials" id="depoimentos">
+  <div class="sh">
+    <div class="sh-label">O que dizem nossos clientes</div>
+    <div class="sh-title">Depoimentos</div>
+  </div>
+
+  <div class="test-grid">
+
+    <div class="test-card reveal" style="--delay:0ms">
+      <div class="test-quote">"</div>
+      <p>Pontualidade na entrega de documentos e suporte muito atencioso. Sempre atendem prontamente minhas solicitações.</p>
+      <div class="test-author">
+        <div class="test-avatar">ES</div>
+        <div>
+          <div class="test-name">Elina Santos</div>
+          <div class="test-role">Diretora — BJT Transportadora</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="test-card reveal" style="--delay:100ms">
+      <div class="test-quote">"</div>
+      <p>Equipe comprometida com a satisfação do cliente, atende todas as necessidades da minha empresa com excelência.</p>
+      <div class="test-author">
+        <div class="test-avatar">JG</div>
+        <div>
+          <div class="test-name">Joel Gomes</div>
+          <div class="test-role">Administrador — Torque Implementos</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="test-card reveal" style="--delay:200ms">
+      <div class="test-quote">"</div>
+      <p>Dúvidas sempre esclarecidas com atendimento prestativo. Pagamentos em dia. Excelente empresa, recomendo!</p>
+      <div class="test-author">
+        <div class="test-avatar">JM</div>
+        <div>
+          <div class="test-name">João Meneses</div>
+          <div class="test-role">Diretor — Ágil Mecânica</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     CLIENTES
+═══════════════════════════════════════════ -->
+<section class="clientes" id="clientes">
+  <div class="sh reveal">
+    <div class="sh-label">Quem confia em nós</div>
+    <div class="sh-title">Nossos Clientes</div>
+    <div class="sh-sub">Empresas de diferentes setores que escolheram a ContaBahia como parceira estratégica.</div>
+  </div>
+
+  <div class="clientes-grid">
+
+    <div class="cliente-card reveal" style="--delay:0ms">
+      <div class="cliente-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="1.8">
+          <rect x="3" y="3" width="7" height="7" rx="1"/>
+          <rect x="14" y="3" width="7" height="7" rx="1"/>
+          <rect x="3" y="14" width="7" height="7" rx="1"/>
+          <rect x="14" y="14" width="7" height="7" rx="1"/>
+        </svg>
+      </div>
+      <div class="cliente-nome">Coopalm</div>
+      <div class="cliente-setor">Cooperativa</div>
+    </div>
+
+    <div class="cliente-card reveal" style="--delay:60ms">
+      <div class="cliente-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="1.8">
+          <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+        </svg>
+      </div>
+      <div class="cliente-nome">Dayclin</div>
+      <div class="cliente-setor">Saúde</div>
+    </div>
+
+    <div class="cliente-card reveal" style="--delay:120ms">
+      <div class="cliente-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="1.8">
+          <rect x="2" y="7" width="20" height="14" rx="2"/>
+          <path d="M16 7V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v2"/>
+        </svg>
+      </div>
+      <div class="cliente-nome">BJT Transportadora</div>
+      <div class="cliente-setor">Logística</div>
+    </div>
+
+    <div class="cliente-card reveal" style="--delay:180ms">
+      <div class="cliente-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="1.8">
+          <circle cx="12" cy="12" r="3"/>
+          <path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/>
+        </svg>
+      </div>
+      <div class="cliente-nome">Torque Implementos</div>
+      <div class="cliente-setor">Indústria</div>
+    </div>
+
+    <div class="cliente-card reveal" style="--delay:0ms">
+      <div class="cliente-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="1.8">
+          <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+          <polyline points="14 2 14 8 20 8"/>
+        </svg>
+      </div>
+      <div class="cliente-nome">Ágil Mecânica</div>
+      <div class="cliente-setor">Automotivo</div>
+    </div>
+
+    <div class="cliente-card reveal" style="--delay:60ms">
+      <div class="cliente-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="1.8">
+          <path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/>
+          <polyline points="9 22 9 12 15 12 15 22"/>
+        </svg>
+      </div>
+      <div class="cliente-nome">Construtora Horizonte</div>
+      <div class="cliente-setor">Construção Civil</div>
+    </div>
+
+    <div class="cliente-card reveal" style="--delay:120ms">
+      <div class="cliente-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="1.8">
+          <path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <path d="M16 10a4 4 0 01-8 0"/>
+        </svg>
+      </div>
+      <div class="cliente-nome">Mercado Sul Bahia</div>
+      <div class="cliente-setor">Comércio</div>
+    </div>
+
+    <div class="cliente-card reveal" style="--delay:180ms">
+      <div class="cliente-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="1.8">
+          <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+          <circle cx="9" cy="7" r="4"/>
+          <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+        </svg>
+      </div>
+      <div class="cliente-nome">RH Soluções</div>
+      <div class="cliente-setor">Recursos Humanos</div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     NOTÍCIAS
+═══════════════════════════════════════════ -->
+<section class="news" id="noticias">
+  <div class="sh">
+    <div class="sh-label">Fique por dentro</div>
+    <div class="sh-title">Últimas Notícias</div>
+  </div>
+
+  <div class="news-grid">
+
+    <div class="news-card reveal" style="--delay:0ms">
+      <div class="news-img">
+        <img src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?w=600&auto=format&fit=crop&q=80" alt="Receita Federal" />
+      </div>
+      <div class="news-body">
+        <div class="news-tag">Tributário</div>
+        <h3>Receita Federal identifica mais de 55 mil pedidos de compensação indevida de PIS/COFINS</h3>
+        <div class="news-meta">
+          <span class="news-date">16 abr, 2026</span>
+          <a href="https://contabahia.com.br/noticias" target="_blank" class="news-link">Ler mais →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="news-card reveal" style="--delay:100ms">
+      <div class="news-img">
+        <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&auto=format&fit=crop&q=80" alt="Economia" />
+      </div>
+      <div class="news-body">
+        <div class="news-tag">Economia</div>
+        <h3>Atividade econômica brasileira cresce 0,6% em fevereiro, aponta Banco Central</h3>
+        <div class="news-meta">
+          <span class="news-date">16 abr, 2026</span>
+          <a href="https://contabahia.com.br/noticias" target="_blank" class="news-link">Ler mais →</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="news-card reveal" style="--delay:200ms">
+      <div class="news-img">
+        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&auto=format&fit=crop&q=80" alt="Empreendedorismo" />
+      </div>
+      <div class="news-body">
+        <div class="news-tag">Empreendedorismo</div>
+        <h3>Câmara avança com programa de crédito exclusivo para empreendedores idosos</h3>
+        <div class="news-meta">
+          <span class="news-date">16 abr, 2026</span>
+          <a href="https://contabahia.com.br/noticias" target="_blank" class="news-link">Ler mais →</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     CTA / CONTATO
+═══════════════════════════════════════════ -->
+<section class="cta-section" id="contato">
+
+  <div class="cta-left reveal">
+    <div class="sh-label" style="display:block; margin-bottom:14px;">Pronto para começar?</div>
+    <h2>Vamos conversar sobre<br><em>o futuro do seu negócio.</em></h2>
+    <p>Entre em contato e descubra como podemos ajudar sua empresa a crescer com segurança e eficiência.</p>
+    <div class="cta-buttons">
+      <a href="https://wa.me/5573981984169" target="_blank" class="btn-primary">Falar pelo WhatsApp</a>
+      <a href="mailto:contato@contabahia.com.br" class="btn-outline">Enviar e-mail</a>
+    </div>
+  </div>
+
+  <div class="cta-right reveal" style="--delay:120ms">
+    <div class="contact-card">
+      <div class="contact-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="2">
+          <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
+          <circle cx="12" cy="10" r="3"/>
+        </svg>
+      </div>
+      <div>
+        <div class="contact-label">Endereço</div>
+        <div class="contact-value">Rua Duque de Caxias, 28 — Ituberá, BA</div>
+      </div>
+    </div>
+
+    <div class="contact-card">
+      <div class="contact-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="2">
+          <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 .99h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 8.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/>
+        </svg>
+      </div>
+      <div>
+        <div class="contact-label">Telefone</div>
+        <div class="contact-value">(73) 98198-4169 · (73) 3191-1102</div>
+      </div>
+    </div>
+
+    <div class="contact-card">
+      <div class="contact-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="#f1c232" stroke-width="2">
+          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+          <polyline points="22,6 12,13 2,6"/>
+        </svg>
+      </div>
+      <div>
+        <div class="contact-label">E-mail</div>
+        <div class="contact-value">contato@contabahia.com.br</div>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- ═══════════════════════════════════════════
+     FOOTER
+═══════════════════════════════════════════ -->
+<footer>
+  <div class="footer-top">
+
+    <div class="footer-brand footer-col">
+      <a href="#inicio" class="logo">
+        <div class="logo-mark">CB</div>
+        <span class="logo-text">Conta<span>Bahia</span></span>
+      </a>
+      <p>Escritório de contabilidade especializado em soluções empresariais para o sul da Bahia.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Navegação</h4>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre Nós</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#noticias">Notícias</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Links Úteis</h4>
+      <ul>
+        <li><a href="https://ondatta.com.br/contabil/agenda-tributaria/" target="_blank">Agenda Tributária</a></li>
+        <li><a href="https://ondatta.com.br/contabil/certidoes_negativas/" target="_blank">Certidões Negativas</a></li>
+        <li><a href="https://ondatta.com.br/contabil/modelos_documentos/" target="_blank">Modelos de Documentos</a></li>
+        <li><a href="http://www4.planalto.gov.br/legislacao" target="_blank">Portal da Legislação</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Área do Cliente</h4>
+      <ul>
+        <li><a href="https://onvio.com.br/#/" target="_blank">Canal de Comunicação</a></li>
+        <li><a href="https://web.contabahia.com.br/login.html" target="_blank">Painel de Indicadores</a></li>
+        <li><a href="https://contabahia.com.br/politica-de-privacidade/" target="_blank">Política de Privacidade</a></li>
+        <li><a href="https://contabahia.com.br/termos-de-uso/" target="_blank">Termos de Uso</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Conta Bahia Soluções Empresariais. Todos os direitos reservados.</p>
+    <div class="footer-badge">CONTABAHIA</div>
+  </div>
+</footer>
+
+
+<!-- ═══════════════════════════════════════════
+     WHATSAPP FLUTUANTE
+═══════════════════════════════════════════ -->
+<a href="https://wa.me/5573981984169" target="_blank" class="whatsapp-btn" title="Fale pelo WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white">
+    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+  </svg>
+</a>
+
+
+<!-- Scripts — carregados no final para não bloquear o render -->
+<script src="main.js"></script>
+
+</body>
+</html>
